@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">楸晟文档</title>
+  <desc id="desc">楸晟文档的站点标识</desc>
+  <defs>
+    <linearGradient id="qiusheng-bg" x1="12" x2="84" y1="8" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#157a6e"/>
+      <stop offset="1" stop-color="#9a3412"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="22" fill="url(#qiusheng-bg)"/>
+  <path fill="#ffffff" d="M24 22h48a6 6 0 0 1 6 6v44a6 6 0 0 1-6 6H24a6 6 0 0 1-6-6V28a6 6 0 0 1 6-6Zm5 12v32h38V34H29Zm7 7h24v5H36v-5Zm0 10h24v5H36v-5Z" opacity=".22"/>
+  <text x="48" y="58" fill="#ffffff" font-family="ui-serif, STSong, Songti SC, serif" font-size="38" font-weight="700" text-anchor="middle">楸</text>
+</svg>

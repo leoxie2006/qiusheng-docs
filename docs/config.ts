@@ -1,28 +1,24 @@
-import { createRequire } from 'module'
 import { defineAdditionalConfig, type DefaultTheme } from 'vitepress'
 
-const require = createRequire(import.meta.url)
-const pkg = require('vitepress/package.json')
-
 export default defineAdditionalConfig({
-  description: 'Vite & Vue powered static site generator.',
+  description: '楸晟的个人知识库与项目文档。',
 
   themeConfig: {
     nav: nav(),
 
     sidebar: {
-      '/guide/': { base: '/guide/', items: sidebarGuide() },
-      '/reference/': { base: '/reference/', items: sidebarReference() }
+      '/guide/': { base: '/guide/', items: sidebarGuide() }
     },
 
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
+      pattern:
+        'https://github.com/leoxie2006/qiusheng-docs/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页'
     },
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
+      message: '记录、沉淀、迭代。',
+      copyright: 'Copyright © 2026 楸晟'
     }
   }
 })
@@ -30,31 +26,17 @@ export default defineAdditionalConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: 'Guide',
-      link: '/guide/what-is-vitepress',
+      text: '首页',
+      link: '/'
+    },
+    {
+      text: '文档',
+      link: '/guide/start',
       activeMatch: '/guide/'
     },
     {
-      text: 'Reference',
-      link: '/reference/site-config',
-      activeMatch: '/reference/'
-    },
-    {
-      text: pkg.version,
-      items: [
-        {
-          text: '1.6.4',
-          link: 'https://vuejs.github.io/vitepress/v1/'
-        },
-        {
-          text: 'Changelog',
-          link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
-        },
-        {
-          text: 'Contributing',
-          link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
-        }
-      ]
+      text: '关于',
+      link: '/about'
     }
   ]
 }
@@ -62,81 +44,17 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarGuide(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Introduction',
+      text: '开始',
       collapsed: false,
       items: [
-        { text: 'What is VitePress?', link: 'what-is-vitepress' },
-        { text: 'Getting Started', link: 'getting-started' },
-        { text: 'Routing', link: 'routing' },
-        { text: 'Deploy', link: 'deploy' }
+        { text: '文档站说明', link: 'start' },
+        { text: 'Cloudflare Pages 部署', link: 'cloudflare-pages' }
       ]
     },
     {
-      text: 'Writing',
+      text: '项目',
       collapsed: false,
-      items: [
-        { text: 'Markdown Extensions', link: 'markdown' },
-        { text: 'Asset Handling', link: 'asset-handling' },
-        { text: 'Frontmatter', link: 'frontmatter' },
-        { text: 'Using Vue in Markdown', link: 'using-vue' },
-        { text: 'Internationalization', link: 'i18n' }
-      ]
-    },
-    {
-      text: 'Customization',
-      collapsed: false,
-      items: [
-        { text: 'Using a Custom Theme', link: 'custom-theme' },
-        {
-          text: 'Extending the Default Theme',
-          link: 'extending-default-theme'
-        },
-        { text: 'Build-Time Data Loading', link: 'data-loading' },
-        { text: 'SSR Compatibility', link: 'ssr-compat' },
-        { text: 'Connecting to a CMS', link: 'cms' }
-      ]
-    },
-    {
-      text: 'Experimental',
-      collapsed: false,
-      items: [
-        { text: 'MPA Mode', link: 'mpa-mode' },
-        { text: 'Sitemap Generation', link: 'sitemap-generation' }
-      ]
-    },
-    { text: 'Config & API Reference', base: '/reference/', link: 'site-config' }
-  ]
-}
-
-function sidebarReference(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: 'Reference',
-      items: [
-        { text: 'Site Config', link: 'site-config' },
-        { text: 'Frontmatter Config', link: 'frontmatter-config' },
-        { text: 'Runtime API', link: 'runtime-api' },
-        { text: 'CLI', link: 'cli' },
-        {
-          text: 'Default Theme',
-          base: '/reference/default-theme-',
-          items: [
-            { text: 'Overview', link: 'config' },
-            { text: 'Nav', link: 'nav' },
-            { text: 'Sidebar', link: 'sidebar' },
-            { text: 'Home Page', link: 'home-page' },
-            { text: 'Footer', link: 'footer' },
-            { text: 'Layout', link: 'layout' },
-            { text: 'Badge', link: 'badge' },
-            { text: 'Team Page', link: 'team-page' },
-            { text: 'Prev / Next Links', link: 'prev-next-links' },
-            { text: 'Edit Link', link: 'edit-link' },
-            { text: 'Last Updated Timestamp', link: 'last-updated' },
-            { text: 'Search', link: 'search' },
-            { text: 'Carbon Ads', link: 'carbon-ads' }
-          ]
-        }
-      ]
+      items: [{ text: '楸晟项目记录', link: 'projects' }]
     }
   ]
 }
