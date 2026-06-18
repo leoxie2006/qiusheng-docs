@@ -55,6 +55,14 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '项目',
       collapsed: false,
       items: [{ text: '楸晟项目记录', link: 'projects' }]
+    },
+    {
+      text: '个人博客 0-1 课程',
+      collapsed: false,
+      items: [
+        { text: '阶段 0：初始化项目和 Git', link: 'personal-blog-0' },
+        { text: '阶段 1：静态页面和路由', link: 'personal-blog-1' }
+      ]
     }
   ]
 }
