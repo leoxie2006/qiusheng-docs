@@ -1,17 +1,16 @@
 ---
 title: 关于
-description: 关于楸晟文档站。
+description: 关于楸晟。
 ---
 
 # 关于
 
-楸晟文档是我的个人知识库与项目文档站。
+楸晟，开发者。
 
-这个站点的目标不是一次性写完所有内容，而是持续把有价值的经验整理成可搜索、可维护的文档。它会随着项目和学习节奏慢慢生长。
+这个站点是我的个人知识库，用来记录技术学习、项目经验和长期维护的资料。不是一次性写完的东西，而是随着成长持续更新。
 
 ## 站点信息
 
-- 生成器：VitePress
-- 部署平台：Cloudflare Pages
-- 内容格式：Markdown
-- 搜索方式：本地搜索
+- 生成器：[VitePress](https://vitepress.dev)
+- 部署：Cloudflare Pages
+- 源码：[GitHub](https://github.com/leoxie2006/qiusheng-docs)

@@ -19,12 +19,6 @@ description: 当前文档站在 Cloudflare Pages 上的推荐构建配置。
 | Root directory | 留空 |
 | Node.js version | 20 或更高 |
 
-## 为什么之前会显示官网首页
-
-这个仓库原本包含 VitePress 官方文档内容，构建入口会读取 `docs` 目录。没有替换配置和首页时，Cloudflare Pages 正常构建出来的就是 VitePress 官网文档。
-
-现在站点配置已经改成 `楸晟文档`，并且旧的多语言官方文档目录已经从构建源中排除。
-
 ## 发布流程
 
 1. 本地修改 `docs` 目录中的 Markdown 文档。
