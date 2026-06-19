@@ -14,3 +14,9 @@ description: 关于楸晟。
 - 生成器：[VitePress](https://vitepress.dev)
 - 部署：Cloudflare Pages
 - 源码：[GitHub](https://github.com/leoxie2006/qiusheng-docs)
+
+## 联系与交流
+
+如果在教程中遇到问题，或者想交流技术，可以加入 QQ 群获取帮助和资源。
+
+![QQ 群二维码](/qq群.jpg)

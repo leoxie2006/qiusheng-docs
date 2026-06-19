@@ -48,6 +48,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: '文档站说明', link: 'start' },
+        { text: 'Codex / CC 安装配置', link: 'codex-cc' },
         { text: 'Cloudflare Pages 部署', link: 'cloudflare-pages' }
       ]
     },
@@ -58,6 +59,11 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: '阶段 0：从零搭建项目骨架', link: 'personal-blog-0' },
         { text: '阶段 1：做出你的第一个页面', link: 'personal-blog-1' }
       ]
+    },
+    {
+      text: '常见问题',
+      collapsed: false,
+      items: [{ text: 'FAQ', link: 'faq' }]
     }
   ]
 }
