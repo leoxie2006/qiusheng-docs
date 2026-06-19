@@ -130,8 +130,4 @@ claude --version
 
 在终端直接运行 `codex` 或 `claude`，看报错信息。如果是网络相关报错（timeout、connection refused），问题在 cc-switch 或供应商；如果是命令找不到，问题在安装环节。
 
-## 下一步
 
-装好环境后，推荐先看 [个人博客 0-1 课程](/guide/personal-blog-0) 练手，在实际项目中把 Codex/CC 用起来。遇到其他报错可以查看 [常见问题](/guide/faq) 页面。
-
-更多工具和部署相关的内容，参考 [文档站说明](/guide/start) 和 [Cloudflare Pages 部署](/guide/cloudflare-pages)。
