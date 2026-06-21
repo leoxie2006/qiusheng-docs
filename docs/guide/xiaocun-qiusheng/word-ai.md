@@ -69,13 +69,13 @@ DeepSeek 目前有多个模型可选。对于本教程的文字处理场景，**
 2. 按下键盘上的 **`Alt + F11`**
 3. 你会看到一个新窗口弹出——这就是 VBA 编辑器
 
-![VBA编辑器界面截图](../public/VBA编辑器界面截图.png)
+![VBA编辑器界面截图](/xiaocun-qiusheng/word-ai/VBA编辑器界面截图.png)
 
 ### 2.2 新建模块
 
 1. 在菜单栏点击 **「插入」→「模块」**
 
-![插入模块](../public/插入模块.png)
+![插入模块](/xiaocun-qiusheng/word-ai/插入模块.png)
 
 2. 右侧会出现一个空白的代码编辑区
 3. 把下方「[完整 VBA 代码](#vba-source-code)」全部粘贴进去
@@ -99,7 +99,7 @@ Private Const MODEL_NAME As String = "deepseek-v4-flash"            ' ← 可选
 
 ### 3.1 运行安装宏
 
-![运行安装](../public/运行安装.png)
+![运行安装](/xiaocun-qiusheng/word-ai/运行安装.png)
 
 ### 3.2 验证安装
 
@@ -111,7 +111,7 @@ Private Const MODEL_NAME As String = "deepseek-v4-flash"            ' ← 可选
 - AI 降重文本
 - AI 总结文本
 
-![演示](../public/助手演示.png)
+![演示](/xiaocun-qiusheng/word-ai/助手演示.png)
 
 <!-- [PERSONAL EXPERIENCE] -->
 如果运行后右键菜单没出现，通常是 Word 的宏安全设置挡住了。去 **「文件」→「选项」→「信任中心」→「信任中心设置」→「宏设置」**，选择「启用所有宏」。配置完记得改回来——长期开着所有宏有安全风险。

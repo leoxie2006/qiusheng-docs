@@ -57,8 +57,18 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '个人博客 0-1 课程',
       collapsed: false,
       items: [
-        { text: '阶段 0：从零搭建项目骨架', link: 'personal-blog-0' },
-        { text: '阶段 1：做出你的第一个页面', link: 'personal-blog-1' }
+        {
+          text: '阶段 0：从零搭建项目骨架',
+          link: 'personal-blog/personal-blog-0'
+        },
+        {
+          text: '阶段 1：做出你的第一个页面',
+          link: 'personal-blog/personal-blog-1'
+        },
+        {
+          text: '阶段 2：组件化和基础样式',
+          link: 'personal-blog/personal-blog-2'
+        }
       ]
     },
     {

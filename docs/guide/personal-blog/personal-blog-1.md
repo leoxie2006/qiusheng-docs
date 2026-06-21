@@ -56,7 +56,7 @@ lastUpdated: 2026-06-18
 
 当然，如果你有其他想做的页面，也可以趁现在让 AI 帮你一起写好。
 
-![阶段 1 静态页面预览](/stage1-preview.png)
+![阶段 1 静态页面预览](/personal-blog/personal-blog-1/stage1-preview.png)
 
 跑起来之后，在浏览器里打开 `localhost:5173`，看看你自己的网站长什么样。
 
@@ -94,9 +94,9 @@ lastUpdated: 2026-06-18
 最后面的背景采用 image.png。
 ```
 
-![AI 生成视觉改版方案](/stage1-redesign.png)
+![AI 生成视觉改版方案](/personal-blog/personal-blog-1/stage1-redesign.png)
 
-![视觉改版后效果](/stage1-ios.png)
+![视觉改版后效果](/personal-blog/personal-blog-1/stage1-ios.png)
 
 你也可以试试其他风格：极简风、像素风、暗黑风……随便你。这是你的博客，你说了算。
 

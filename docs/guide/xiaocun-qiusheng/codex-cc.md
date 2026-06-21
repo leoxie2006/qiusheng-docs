@@ -25,7 +25,7 @@ Codex 和 Claude Code 都依赖 Node.js 运行，先把它装好。
 
 打开终端（PowerShell 或 Windows Terminal）：
 
-![打开终端](/打开终端.png)
+![打开终端](/xiaocun-qiusheng/codex-cc/打开终端.png)
 
 使用 winget 安装 Node.js LTS 版本：
 
@@ -35,7 +35,7 @@ winget install OpenJS.NodeJS.LTS
 
 > 如果没有 winget，请前往 [Microsoft 官方文档](https://learn.microsoft.com/zh-cn/windows/package-manager/winget/) 安装。
 
-![安装 Node.js](/安装nodejs.png)
+![安装 Node.js](/xiaocun-qiusheng/codex-cc/安装nodejs.png)
 
 > **常见问题**：如果提示「在此系统上禁止运行脚本」，请参考 [常见问题](/guide/faq#powershell-执行策略限制)。
 
@@ -94,7 +94,7 @@ claude --version
 
 前往 [cc-switch Releases](https://github.com/farion1231/cc-switch/releases) 下载最新版本。
 
-![下载 cc-switch](/安装ccswitch.png)
+![下载 cc-switch](/xiaocun-qiusheng/codex-cc/安装ccswitch.png)
 
 > 如果网页打不开，也可以加 QQ 群获取安装包，群二维码见 [关于](/about#联系与交流) 页面。
 
@@ -102,19 +102,19 @@ claude --version
 
 打开 cc-switch，选择 Claude Code 或 Codex，点击右上角 **+** 添加渠道：
 
-![cc-switch 配置](/ccswitch配置1.png)
+![cc-switch 配置](/xiaocun-qiusheng/codex-cc/ccswitch配置1.png)
 
 填写中转站的请求地址和 API Key：
 
-![填写中转站信息](/ccswitch配置2.png)
+![填写中转站信息](/xiaocun-qiusheng/codex-cc/ccswitch配置2.png)
 
 部分中转站支持一键导入，省去手动填写的麻烦：
 
-![一键导入](/中转一键导入ccswitch.png)
+![一键导入](/xiaocun-qiusheng/codex-cc/中转一键导入ccswitch.png)
 
 同样的方式也适用于其他 API 供应商——在渠道类型中选择对应的供应商，填入对方提供的地址和 Key 即可。添加完成后点击启用：
 
-![启用通道](/ccswitch配置3.png)
+![启用通道](/xiaocun-qiusheng/codex-cc/ccswitch配置3.png)
 
 ## 常见问题
 
