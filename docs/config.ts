@@ -31,7 +31,7 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '文档',
-      link: '/guide/start',
+      link: '/guide/start/start',
       activeMatch: '/guide/'
     },
     {
@@ -47,24 +47,40 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '开始',
       collapsed: false,
       items: [
-        { text: '文档站说明', link: 'start' },
-        { text: 'Cloudflare Pages 部署', link: 'cloudflare-pages' }
+        { text: '文档站说明', link: 'start/start' },
+        { text: 'Cloudflare Pages 部署', link: 'start/cloudflare-pages' }
       ]
     },
     {
       text: '小村楸晟',
       collapsed: false,
       items: [
-        { text: 'Codex / CC 安装配置', link: 'codex-cc' },
-        { text: 'Word 接入 AI (VBA + DeepSeek)', link: 'word-ai' }
+        {
+          text: 'Word 接入 AI (VBA + DeepSeek)',
+          link: 'xiaocun-qiusheng/word-ai'
+        },
+        {
+          text: 'Codex / CC 安装配置',
+          link: 'xiaocun-qiusheng/codex-cc'
+        }
       ]
     },
     {
       text: '个人博客 0-1 课程',
       collapsed: false,
       items: [
-        { text: '阶段 0：从零搭建项目骨架', link: 'personal-blog-0' },
-        { text: '阶段 1：做出你的第一个页面', link: 'personal-blog-1' }
+        {
+          text: '阶段 0：从零搭建项目骨架',
+          link: 'personal-blog/personal-blog-0'
+        },
+        {
+          text: '阶段 1：做出你的第一个页面',
+          link: 'personal-blog/personal-blog-1'
+        },
+        {
+          text: '阶段 2：组件化和基础样式',
+          link: 'personal-blog/personal-blog-2'
+        }
       ]
     },
     {
