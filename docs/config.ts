@@ -31,7 +31,7 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '文档',
-      link: '/guide/start',
+      link: '/guide/start/start',
       activeMatch: '/guide/'
     },
     {
@@ -47,10 +47,22 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: '开始',
       collapsed: false,
       items: [
-        { text: '文档站说明', link: 'start' },
-        { text: 'Codex / CC 安装配置', link: 'codex-cc' },
-        { text: 'Cloudflare Pages 部署', link: 'cloudflare-pages' },
-        { text: 'Word 接入 AI (VBA + DeepSeek)', link: 'word-ai' }
+        { text: '文档站说明', link: 'start/start' },
+        { text: 'Cloudflare Pages 部署', link: 'start/cloudflare-pages' }
+      ]
+    },
+    {
+      text: '小村楸晟',
+      collapsed: false,
+      items: [
+        {
+          text: 'Word 接入 AI (VBA + DeepSeek)',
+          link: 'xiaocun-qiusheng/word-ai'
+        },
+        {
+          text: 'Codex / CC 安装配置',
+          link: 'xiaocun-qiusheng/codex-cc'
+        }
       ]
     },
     {
