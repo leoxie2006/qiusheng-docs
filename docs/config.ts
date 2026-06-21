@@ -48,8 +48,14 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: '文档站说明', link: 'start' },
+        { text: 'Cloudflare Pages 部署', link: 'cloudflare-pages' }
+      ]
+    },
+    {
+      text: '小村楸晟',
+      collapsed: false,
+      items: [
         { text: 'Codex / CC 安装配置', link: 'codex-cc' },
-        { text: 'Cloudflare Pages 部署', link: 'cloudflare-pages' },
         { text: 'Word 接入 AI (VBA + DeepSeek)', link: 'word-ai' }
       ]
     },
