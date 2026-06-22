@@ -49,7 +49,11 @@ export default defineConfig({
       next: '下一页'
     },
     lastUpdated: {
-      text: '最后更新'
+      text: '最后更新',
+      formatOptions: {
+        dateStyle: 'long',
+        forceLocale: true
+      }
     },
     notFound: {
       title: '页面未找到',
