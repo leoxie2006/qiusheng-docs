@@ -1,6 +1,7 @@
 ---
 title: Cloudflare Pages 部署
 description: 当前文档站在 Cloudflare Pages 上的推荐构建配置。
+lastUpdated: 2026-06-18
 ---
 
 # Cloudflare Pages 部署

@@ -2,7 +2,7 @@
 title: "Word 接入 AI 教程：用 VBA + DeepSeek 打造右键 AI 助手（2026 版）"
 description: "通过 VBA 调用 DeepSeek API，在 Word 右键菜单中嵌入 AI 文本处理功能。DeepSeek 国内月活突破 1.27 亿，API 价格仅为 GPT-4.1 的 1/30。本教程 15 分钟完成配置，实现润色、扩写、降重等 5 大功能。"
 date: "2026-06-21"
-lastUpdated: "2026-06-21"
+lastUpdated: 2026-06-21
 author: "楸晟"
 tags: ["Word", "VBA", "DeepSeek", "AI助手", "办公自动化"]
 ---

@@ -2,7 +2,7 @@
 title: Codex / Claude Code 安装与配置
 description: 在 Windows 上安装 OpenAI Codex 和 Anthropic Claude Code，通过 cc-switch 接入中转站或官方 API，实测可用的完整步骤。
 author: 楸晟
-lastUpdated: "2026-06-20"
+lastUpdated: 2026-06-20
 ---
 
 # Codex / Claude Code 安装与配置
@@ -129,5 +129,4 @@ claude --version
 ### 怎么判断是哪个环节出了问题？
 
 在终端直接运行 `codex` 或 `claude`，看报错信息。如果是网络相关报错（timeout、connection refused），问题在 cc-switch 或供应商；如果是命令找不到，问题在安装环节。
-
 

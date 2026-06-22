@@ -1,6 +1,7 @@
 ---
 title: 常见问题
 description: 安装和配置过程中常见的问题及解决方法。
+lastUpdated: 2026-06-20
 ---
 
 # 常见问题
