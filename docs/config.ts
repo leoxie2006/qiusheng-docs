@@ -80,6 +80,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         {
           text: '阶段 2：组件化和基础样式',
           link: 'personal-blog/personal-blog-2'
+        },
+        {
+          text: '阶段 3：Express API 和假数据',
+          link: 'personal-blog/personal-blog-3'
         }
       ]
     },
