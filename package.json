@@ -81,6 +81,7 @@
     "docs:build": "pnpm build && pnpm docs:build:only",
     "docs:build:only": "pnpm -F=docs build",
     "docs:preview": "pnpm -F=docs preview",
+    "merge:main": "bash scripts/merge-qiusheng-to-main.sh",
     "docs:lunaria:build": "pnpm -F=docs lunaria:build",
     "docs:lunaria:open": "pnpm -F=docs lunaria:open",
     "format": "prettier --experimental-cli --write .",
